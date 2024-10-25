@@ -1,0 +1,105 @@
+.container {
+    max-width: 550px;
+    border: 3px solid black;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feilds {
+    width: 48%;
+}
+
+.inputs {
+    width: 100%;
+    padding: 10px 5px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+.borders {
+    border-top: 3px solid rgb(135, 135, 135);
+    margin: 10px;
+}
+
+.values {
+    margin: 10px 0px;
+}
+
+.container-wl {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.rows {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.datas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 13%;
+}
+
+.items {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.rows {
+    background-color: black;
+    color: white;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+.table-data:nth-of-type(even) {
+    background-color: rgb(227, 227, 227);
+}
+
+.btn {
+    margin: 0px 7px;
+    border: 0;
+    color: green;
+    background-color: inherit;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.btn2 {
+    color: red;
+}
+.btn3{
+    margin-left: 9px;
+    background-color:black;
+    box-shadow: none;
+    color: rgb(121, 225, 245);
+}
